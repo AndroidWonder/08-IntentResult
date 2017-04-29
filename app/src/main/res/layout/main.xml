@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ff0000cc"
+        android:text="Phone a Contact"
+        android:textSize="20sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/text1"
+        android:layout_width="fill_parent"
+        android:layout_height="54dp"
+        android:text="content://contacts/people/"
+        android:textSize="18sp" >
+    </EditText>
+
+    <Button
+        android:id="@+id/btnPickContact"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="Display Contacts"
+        android:textStyle="bold" >
+    </Button>
+
+</LinearLayout>
